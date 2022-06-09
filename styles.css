@@ -1,0 +1,888 @@
+* {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+body {
+    text-align: center;
+    width: 1400px;
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+.up {
+    background-color: black;
+    color: white;
+    width: 1400px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 5;
+}
+
+.big {
+    text-align: left;
+    font-size: 30px;
+    line-height: 35px;
+    margin-left: 110px;
+    padding-top: 20px;
+}
+
+ul {
+    display: inline-flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 48px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: -30px;
+    margin-top: -10px;
+    line-height: 35px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 84%;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.zag {
+    text-align: right;
+    margin-top: 25px;
+    margin-right: 108px;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.newtown {
+    display: flex;
+    height: 601px;
+    width: 1400px;
+    margin-top: -1px;
+    background-image: url(./img/background-1\ 1.png);
+    color: white;
+    justify-content: space-between;
+}
+
+.newtown::after {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 1400px;
+    height: 601px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.two {
+    width: 700px;
+    z-index: 1;
+}
+
+.big2 {
+    font-weight: 400;
+    color: white;
+    font-size: 60px;
+    line-height: 70, 31px;
+    width: 129px;
+    margin-left: 110px;
+    padding-top: 109px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text {
+    width: 544px;
+    font-size: 36px;
+    font-weight: 400;
+    padding-top: 32px;
+    margin-left: 110px;
+    text-align: left;
+}
+
+hr {
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    margin-top: 32px;
+    margin-left: 110px;
+    border-color: #E72424;
+}
+
+.mini {
+    margin-left: 110px;
+    margin-top: 39px;
+    text-align: left;
+    width: 275px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 135px;
+    height: 42px;
+    margin-top: 39px;
+    margin-left: 110px;
+}
+
+.redb {
+    width: 100%;
+    height: 54px;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: transparent;
+    border: none;
+    margin-top: 60px;
+}
+
+
+.tabl {
+    font-family: 'Open Sans', sans-serif;
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+
+form {
+    padding-top: 20px;
+    color: black;
+    font-size: 20px;
+    line-height: 27, 26px;
+    width: 370px;
+    height: 365px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+form .redb {
+    margin-bottom: -10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #E72424;
+
+}
+
+.fh {
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=password] {
+    padding: 14px;
+    margin-top: 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.brown {
+    background-color: #F8EFEF;
+    height: 110px;
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-position: 605px 34px;
+    text-align: left;
+    display: flex;
+    position: relative;
+}
+
+.social {
+    height: 40px;
+    padding-top: 34px;
+    padding-left: 150px;
+}
+
+.b1 {
+    padding-top: 14px;
+    padding-left: 111px;
+    font-size: 20;
+    font-weight: 700;
+    line-height: 24, 27px;
+}
+
+.b2 {
+    font-weight: 400;
+    font-size: 14;
+    line-height: 19, 07px;
+    color: #86878B;
+    padding-top: 14px;
+    padding-left: 111px;
+}
+
+.whitetown {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    background-image: url(./img/image_right_u255@1X\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 963px 100px;
+    width: 1400px;
+    display: flex;
+    height: 680px;
+}
+
+.whitetown button {
+    color: white;
+    width: 112px;
+    height: 110px;
+    border: 1px;
+}
+
+.tab1,
+.tab2,
+.tab3 {
+    margin-top: 10px;
+    background-color: #333333;
+    height: 112px;
+}
+
+.tab3 {
+    margin-bottom: 725px;
+}
+
+.tab1:focus,
+.tab2:focus,
+.tab3:focus {
+    background-color: #E72424;
+}
+
+.tab123 {
+    width: 250px;
+}
+
+.t {
+    padding-top: 10px;
+    text-align: left;
+    width: 600px;
+}
+
+.txt {
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27, 24px;
+}
+
+.txt1,
+.txt2,
+.txt3 {
+    padding-top: 58px;
+    color: #86878B;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19, 07px;
+}
+
+.txt1 {
+    display: block;
+}
+
+.txt2 {
+    display: none;
+}
+
+.txt3 {
+    display: none;
+}
+
+.t button {
+    background-color: #EC7979;
+    width: 135px;
+    height: 44px;
+    margin-top: 130px;
+}
+
+.old {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43, 26px;
+}
+
+.old hr {
+    margin-top: 34px;
+    margin-left: 668px;
+    border: 1px solid #E72424;
+}
+
+.old .mini {
+    margin-top: 34px;
+    margin-left: 518.5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+    white-space: nowrap;
+}
+
+.circle {
+    display: flex;
+    padding-top: 68px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.circle1,
+.circle2,
+.circle3 {
+    padding-top: 15px;
+    border: 1px solid #E72424;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}
+
+.nobr-all {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nobr {
+    width: 500px;
+    padding-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pap p {
+    width: 450px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.pricing {
+    margin-top: 116px;
+    padding-top: 80px;
+    color: #212121;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42, 26px;
+    background-color: #F5F5F5;
+}
+
+.pricing hr {
+    margin-top: 34px;
+    margin-left: 668px;
+    border: 1px solid #E72424;
+}
+
+.pricing2 {
+    color: #86878B;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19, 07px;
+    line-height: 100%;
+    padding-top: 34px;
+}
+
+.colums {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c1,
+.c3 {
+    border: white;
+    width: 340px;
+    height: 50px;
+    color: white;
+    background-color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 16px;
+}
+
+.c2 {
+    border: white;
+    width: 340px;
+    height: 100px;
+    color: white;
+    background-color: #333333;
+    font-weight: 700;
+    font-size: 35px;
+    padding-top: 26px;
+    border-bottom: 1px solid white;
+}
+
+.c1 {
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+}
+
+.c3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19, 07px;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.space {
+    color: #86878B;
+    text-align: center;
+    width: 340px;
+    height: 40px;
+    border: 2px solid #F5F5F5;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19, 07;
+    padding-top: 10px;
+}
+
+.col1 {
+    margin-left: 113px;
+    margin-top: 62px;
+}
+
+.col2 {
+    margin-top: 47px;
+}
+
+.col3 {
+    margin-right: 113px;
+    margin-top: 62px;
+    margin-bottom: 64px;
+}
+
+.jeremi {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42, 26px;
+    color: #212121;
+    margin-top: 80px;
+}
+
+.jeremi p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19, 07px;
+    color: #86878B;
+}
+
+.jeremi hr {
+    border-color: #E72424;
+    width: 64px;
+    height: 2px;
+    margin-top: 32px;
+    margin-left: 668px;
+}
+
+.manager {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 53px;
+}
+
+.m1,
+.m2,
+.m3 {
+    background-color: #E2E2E2;
+    width: 298px;
+    height: 110px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19, 07px;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 67px;
+    padding-top: 10px;
+}
+
+.m1 {
+    margin-left: 157px;
+}
+
+.m3 {
+    margin-right: 157px;
+}
+
+.foto {
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 195px;
+}
+
+.f2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27, 24px;
+    padding-right: 180px;
+}
+
+.f2 p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19, 07px;
+    color: #86878B;
+}
+
+.oldtown {
+    background-image: url(./img/gorod.png);
+    color: white;
+    position: relative;
+    height: 326px;
+}
+
+.oldtown::after {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 1400px;
+    height: 326px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.oldtown h2 {
+    position: relative;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42, 26px;
+    padding-top: 76px;
+    z-index: 1;
+}
+
+.oldtown hr {
+    position: relative;
+    background-color: red;
+    margin-left: 668px;
+    z-index: 1;
+}
+
+.oldtown p {
+    position: relative;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+}
+
+.oldtown button {
+    position: relative;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 135px;
+    height: 42px;
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 38px;
+    z-index: 1;
+}
+
+.contaktus {
+    margin-top: 80px;
+    font-size: 36px;
+    line-height: 42, 26px;
+    color: #212121;
+}
+
+.contaktus hr {
+    border: red;
+    margin-left: 668px;
+}
+
+.contaktus p {
+    padding-top: 34px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19, 07px;
+    color: #86878B;
+}
+
+.form {
+    display: flex;
+}
+
+.left input[type=text],
+.left input[type=password] {
+    padding: 14px;
+    margin-top: 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 478px;
+}
+
+.left {
+    margin-left: 111px;
+}
+
+.right {
+    margin-left: 222px;
+    text-align: start;
+    font-family: 'Open Sans', sans-serif;
+}
+
+textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: -45px;
+}
+
+.right p {
+    font-size: 14px;
+}
+
+.redb1 {
+    background-color: #EC7979;
+    margin-left: 630px;
+    margin-right: 0px;
+    width: 146px;
+    height: 42px;
+    margin-bottom: 44px;
+}
+
+
+
+.footer {
+    height: 101px;
+    background-color: #000;
+}
+
+.social2 {
+    padding-top: 30px;
+}
+
+.footer .footer_text {
+    padding-top: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    line-height: 16, 34px;
+    text-align: center;
+}
+
+.stBut {
+    margin-right: 350px;
+
+}
+
+.newTownButton {
+    margin-left: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    /* Расположение коробки */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Полная ширина */
+    height: 100%;
+    /* Полная высота */
+    overflow: auto;
+    /* Включите прокрутку, если это необходимо */
+
+}
+
+/* Модальное содержание */
+.modal-content {
+    cursor: pointer;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 2%;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 40%;
+    height: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    line-height: 40px;
+    text-align: center;
+}
+
+.modal-content button {
+    border-radius: 15px;
+    background-color: #d0d0d0;
+    width: 35%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.modal-content form {
+    cursor: pointer;
+}
+
+.modal-content form input {
+    cursor: pointer;
+}
+
+/* Кнопка закрытия */
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
